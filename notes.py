@@ -1,0 +1,29 @@
+amt=int(input("Enter the amount"))
+
+twoth=0
+fivehun=0
+hun=0
+fif=0
+twen=0
+ten=0
+five=0
+two=0
+one=0
+twoth=amt//2000
+amt=amt%2000
+fivehun=amt//500
+amt=amt%500
+hun=amt//100
+amt=amt%100
+fif=amt//50
+amt=amt%50
+twen=amt//20
+amt=amt%20
+ten=amt//10
+amt=amt%10
+five=amt//5
+amt=amt%5
+two=amt//2
+amt=amt%2
+one=amt
+print("Rs 2000:",twoth,"Rs 500:",fivehun,"Rs 100:",hun,"Rs 50:",fif,"Rs 20:",twen,"Rs 10:",ten,"Rs 5:",five,"Rs 2:",two,"Rs 1:",one)
